@@ -31,4 +31,15 @@ body {
   border-radius: 100% 0 0 100%;
   z-index: -1;
   position: absolute;
+
+}.bg-2::after {
+  content: '';
+  width: 120%;
+  height: 95%;
+  left: -130px;
+  bottom: -55px;
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 0 100% 100% 0;
+  z-index: -1;
+  position: absolute;
 }

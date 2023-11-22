@@ -7,7 +7,7 @@ import twitter from '../assets/images/icon-twitter.svg'
 import { useState } from 'react'
 
 const Menu = () => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
 
   const menuVariants = {
     open: { y: 0, transition: { duration: 0.3 } },

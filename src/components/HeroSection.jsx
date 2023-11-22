@@ -1,7 +1,7 @@
 import illustration from '../assets/images/illustration-hero.svg'
 import Button from './Button'
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <section className="flex flex-col md:flex-row-reverse justify-center items-center text-sm md:text-lg gap-10 mt-10 py-5 pl-5 md:py-10 sm:pl-10 lg:pl-28">
       <div className="bg relative self-center w-full md:w-1/2">
@@ -28,4 +28,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default HeroSection
