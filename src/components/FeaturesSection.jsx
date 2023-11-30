@@ -5,7 +5,7 @@ import Features from './Features'
 const FeaturesSection = () => {
   const [featureVisible, setfeatureVisible] = useState('Simple Bookmarking')
   return (
-    <section className="py-5 px-5 md:py-10 sm:px-10 lg:px-28">
+    <section className="py-5 px-5 md:py-10 sm:px-10 lg:px-28 text-sm md:text-lg">
       <div className="md:px-32">
         <h2 className="text-veryDarkBlue text-2xl sm:text-3xl md:text-4xl font-[500] text-center mb-3">
           Features

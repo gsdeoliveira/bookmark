@@ -6,7 +6,7 @@ import Card from './Card'
 
 const CardSection = () => {
   return (
-    <section className="flex flex-col items-center py-5 px-5 md:py-10 sm:px-10 lg:px-28 mt-20">
+    <section className="flex flex-col items-center py-5 px-5 md:py-10 sm:px-10 lg:px-28 mt-20 text-sm md:text-lg">
       <h2 className="text-veryDarkBlue text-2xl sm:text-3xl md:text-4xl font-[500] text-center md:px-32 mb-3">
         Download the Extension
       </h2>
